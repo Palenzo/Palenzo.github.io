@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Palenzo — Profile</title>
+    <meta name="description" content="Profile site for Palenzo" />
+    <style>
+      :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#06b6d4}
+      html,body{height:100%;margin:0;font-family:Inter,Segoe UI,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#071029 0%,#0b1220 100%);color:#e6eef6}
+      .wrap{max-width:840px;margin:48px auto;padding:28px;background:rgba(255,255,255,0.02);border-radius:12px;box-shadow:0 6px 24px rgba(2,6,23,0.6)}
+      header{display:flex;align-items:center;gap:18px}
+      .avatar{width:96px;height:96px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700;color:#021024;font-size:28px}
+      h1{margin:0;font-size:28px}
+      p.lead{color:var(--muted);margin:8px 0 18px}
+      .links{display:flex;flex-wrap:wrap;gap:10px}
+      a.btn{display:inline-block;padding:8px 12px;border-radius:8px;background:rgba(255,255,255,0.03);color:var(--muted);text-decoration:none;border:1px solid rgba(255,255,255,0.03)}
+      a.btn.primary{background:linear-gradient(90deg,var(--accent),#7c3aed);color:#021024;border:none}
+      footer{margin-top:22px;color:var(--muted);font-size:13px}
+      @media (max-width:520px){.wrap{margin:16px;padding:18px}.avatar{width:72px;height:72px;font-size:22px}}
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <header>
+        <div class="avatar">PZ</div>
+        <div>
+          <h1>Palenzo</h1>
+          <p class="lead">Developer • Projects, notes, and experiments.
+          </p>
+          <div class="links">
+            <a class="btn primary" href="https://github.com/Palenzo" target="_blank" rel="noopener">View GitHub profile</a>
+            <a class="btn" href="https://github.com/Palenzo?tab=repositories" target="_blank" rel="noopener">Repositories</a>
+            <a class="btn" href="#contact">Contact</a>
+          </div>
+        </div>
+      </header>
+
+      <section style="margin-top:24px">
+        <h2 style="margin:0 0 8px">About</h2>
+        <p style="color:var(--muted);margin:0">This is a minimal GitHub Pages profile site created from the repository <code>Palenzo.github.io</code>. Edit this file to customize your bio, projects, and links.</p>
+      </section>
+
+      <section style="margin-top:20px">
+        <h2 style="margin:0 0 8px">Featured</h2>
+        <ul style="color:var(--muted);margin:0;padding-left:20px">
+          <li>Project 1 — short description</li>
+          <li>Project 2 — short description</li>
+        </ul>
+      </section>
+
+      <section id="contact" style="margin-top:20px">
+        <h2 style="margin:0 0 8px">Contact</h2>
+        <p style="color:var(--muted);margin:0">Email: <a href="mailto:hello@palenzo.dev" style="color:var(--accent)">hello@palenzo.dev</a> (replace with your email)</p>
+      </section>
+
+      <footer>
+        <small>Note: I assumed your GitHub username is <strong>Palenzo</strong> and created this site at the repository root. If your username is different or you want a different layout, tell me and I will update it.</small>
+      </footer>
+    </main>
+  </body>
+</html>
